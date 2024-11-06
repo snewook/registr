@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: url('../images/background-image.png') no-repeat;
+    display: flex;
+    justify-content: center;
+    background-size: 100vw 100vh;
+}
+
+.window {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 395px;
+    height: 399px;
+    margin-top: 172px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    background-color: rgba(39, 33, 61, 0.2);
+    backdrop-filter: blur(10px);
+}
+
+#regText {
+    font-weight: 700;
+    font-size: 36px;
+    color: rgba(255, 255, 255, 1);
+    margin: 30px 40px 60px 40px;
+    font-family: 'Comfortaa', 'Arial';
+}
+
+.field {
+    width: 290px;
+    height: 30px;
+    border: 3px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.05);
+    margin: 10px 40px 0px 40px;
+    padding: 10px;
+    font-size: larger;
+    font-family: 'Comfortaa', 'Arial';
+}
+
+.whiteButton {
+    border: 0px;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.8);
+    color: rgba(159, 89, 107, 1);
+}
+
+#bigButton {
+    width: 315px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 10px 0px 10px 40px;
+    font-size: large;
+    font-family: 'Comfortaa', 'Arial';
+}
+
+#smallButton {
+    width: 148px;
+    height: 32px;
+    margin: 0px 0px 0px 4px;
+    font-family: 'Comfortaa', 'Arial';
+}
+
+.whiteButton:hover {
+    background: #fff;
+}
+
+#AHA {
+    margin: 0px 0px 0px 40px;
+    font-family: 'Comfortaa', 'Arial';
+    font-size: 85%;
+    color: rgba(255, 255, 255, 0.6);
+}
